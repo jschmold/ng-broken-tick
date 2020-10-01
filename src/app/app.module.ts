@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TickTestComponent } from './tick-test/tick-test.component';
 import { ZoneTestComponent } from './zone-test/zone-test.component';
+import { SolutionComponent } from './solution/solution.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TickTestComponent,
-    ZoneTestComponent
+    ZoneTestComponent,
+    SolutionComponent
   ],
   imports: [
     BrowserModule,
